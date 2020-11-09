@@ -1,0 +1,176 @@
+html,
+body {
+  height: 100%;
+}
+.navbar{
+    background:#04b048 !important;
+}
+.nav-link{
+    color:#fff !important;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.kr-font{
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+.tagline-font{
+    font-family: 'Noto Serif KR', serif;
+}
+.quote-font{
+    font-family: 'Noto Serif KR', serif;
+    font-size:20px;
+}
+.mainboard-title{
+    background:#04b048;
+    color:white;
+    font-weight:bold;
+}
+.custom-link1{
+    color:#14a34d;
+    cursor:pointer;
+    cursor:hand;
+}.custom-link1:hover{
+    color:#14a34d;
+}
+.view-content{
+    min-height:200px;
+   /* background:#f5f5f5; */
+}
+.view-content p img{
+    max-width:100% !important;
+    height:auto !important;
+}
+.badge-cursor{
+    cursor:pointer;
+    cursor:hand;
+}
+#sticky-footer {
+
+    flex-shrink: none;
+  }
+  
+  .dis-img{
+	width:100%;
+	height:auto;
+	max-width:190px;
+}
+.pad-remove div{
+	padding:0px;
+}
+.custom-h3{
+	font-size:1.5rem;
+}
+.genre-box span{
+	color:#fff;
+	background:#20a1d6;
+	border-radius:5px;
+	padding:3px 7px;
+	margin:3px;
+	font-size:0.8rem;
+	text-decoration:none;
+    display:inline-block;
+    font-weight:bold;
+}
+.genre-box span:hover{
+	background:#4abae8;
+}
+.movie-overview{
+	font-size:0.9rem;
+	margin-top:7px;
+}
+.watch-poster{
+	padding:1.2rem;
+	text-align:center;
+	width:100%;
+}.watch-poster img{
+	width:auto;
+	max-height:400px;
+}
+/* comment style */
+.com-thumb{
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
+}
+.com-nickname{
+    font-weight: 700;
+    font-size:12px;
+    font-weight:bold;
+    color:#000;
+}
+.com-text{
+    line-height: 17px;
+    word-break: break-all;
+    word-wrap: break-word;
+    vertical-align: top;
+    font-size:13px;
+    padding-top:3px;
+}
+.com-reply{
+    font-size: 11px;
+    letter-spacing: -1px;
+    color: #707070 !important;
+}
+/* .mainboard tr td{
+    border:solid 1px black;
+} */
+.headtable tr td{
+    font-family: dotum,"돋움",verdana;
+    font-size: 11px;
+    letter-spacing: -1px;
+    color: #707070 !important;
+    padding:3px;
+    background:#f0f0f0;
+}
+.bodytable tr td{
+    padding:5px 1px;
+}
+.table-tr:hover{
+    background:#d0f5de;
+}
+.listno {
+    text-align: center;
+    font-family: tahoma;
+    font-size: 9px;
+    color: #808080;
+}
+.smtext{
+    font-family: dotum,"돋움",verdana;
+    font-size: 11px;
+    letter-spacing: -1px;
+    color: #9a9a9a !important;
+}
+.table_title{
+    font-size:9pt;
+}
+.table_title a{
+    color:#000000;
+}
+.list_memo_count_span {
+    color: #04b048;
+    font-size: 11px;
+    font-weight: bold;
+}
+.view_title{
+    font-size:16px;
+}
+.icon_view{
+    width:24px;
+    height:24px;
+}
+.tb_spr {
+    margin: 0 5px;
+    font-family: verdana;
+    font-size: 11px;
+    letter-spacing: -1px;
+    color: #dbdbdb !important;
+    font-weight: normal !important;
+}
+
+/* comment style end */
+/* media css */
+@media (max-width: 988px){
+	.ss-hide{
+		display:none;
+	}
+}
